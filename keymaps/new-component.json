@@ -1,0 +1,10 @@
+{
+  "atom-workspace": {
+    "cmd-alt-n": "new-component:toggle"
+  },
+
+  ".new-component-input atom-text-editor[mini]": {
+    "enter": "core:confirm",
+    "escape": "core:cancel"
+  }
+}

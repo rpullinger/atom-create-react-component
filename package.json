@@ -1,0 +1,16 @@
+{
+  "name": "react-component",
+  "main": "./lib/new-component",
+  "version": "0.0.0",
+  "description": "Quickly create a stateless React component",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "new-component:toggle"
+  },
+  "repository": "https://github.com/rpullinger/atom-create-react-component",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,27 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Create new component",
+        "command": "new-component:toggle"
+      }
+    ],
+    ".tree-view .selected.directory": [
+      {
+        "label": "Create new component here",
+        "command": "new-component:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Create new component",
+          "command": "new-component:toggle"
+        }
+      ]
+    }
+  ]
+}
